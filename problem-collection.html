@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>문제집 | 1페이지</title>
+    <link rel="stylesheet" href="style-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>
+                    <a href="main.html">
+                        <span style="color:#d0d0d0;">MATH</span>ON
+                    </a>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul class="list"> <!-- 메뉴 목록 -->
+                    <li><a href="problem-list.html">문제</a></li>
+                    <li><a href="problem-collection.html">문제집</a></li>
+                    <li><a href="community.html">게시판</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </nav>
+            <div class="sign"> <!-- 로그인/회원가입 -->
+                <ul class="list">
+                    <li><a href="sign-in.html">로그인</a></li>
+                    <li><a href="sign-up.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <sector class="center">
+        <div class="center-inner">
+            <div class="problem-nav">
+                <ul class="list">
+                    <li><a href="problem-collection.html" class="active">전체</a></li>
+                    <li><a href="#">내 문제집</a></li>
+                    <li><a href="collection-create.html">만들기</a></li>
+                </ul>
+                <div class="form">
+                    <form class="form-sort" method="post">
+                        <select name="sort" id="sort">
+                            <option value="number">번호순</option>
+                            <option value="problem-ac">푼 문제순</option>
+                            <option value="problem-all">전체 문제순</option>
+                            <option value="problem-ac">진행도순</option>
+                            <option value="ac-all">만점자순</option>
+                        </select>
+                        <select name="sort-type" id="sort-type">
+                            <option value="ascend">오름차순</option>
+                            <option value="descend">내림차순</option>
+                        </select>
+                    </form>
+                    <form class="form-search" method="get">
+                        <select name="search-type" id="search-type">
+                            <option value="entire">전체</option>
+                            <option value="problem-collection">문제집</option>
+                            <option value="subject">과목</option>
+                            <option value="identity">아이디</option>
+                        </select>
+                        <input type="type" class="input" placeholder="검색어를 입력하세요." name="search" size="25">
+                        <input type="submit" class="summit" value="검색">
+                    </form>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="total">총 문제집 一 1234개</div>
+                <table class="problem-list">
+                    <thead>
+                        <tr>
+                            <th style="width: 6%;">번호</th>
+                            <th class="align-left" style="width: 42%;">문제집 이름</th>
+                            <th style="width: 7%;">만든 사람</th>
+                            <th style="width: 7%;">만점자</th>
+                            <th style="width: 30%;">진행 상황</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td>1</td>
+                            <td class="align-left"><a href="collection-main.html">홀수번째 문제들</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="5" value="2"></progress>
+                                    <span>40% (2 / 5)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>2</td>
+                            <td class="align-left"><a>문제집 2</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>3</td>
+                            <td class="align-left"><a>문제집 3</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>4</td>
+                            <td class="align-left"><a>문제집 4</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>5</td>
+                            <td class="align-left"><a>문제집 5</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>6</td>
+                            <td class="align-left"><a>문제집 6</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>7</td>
+                            <td class="align-left"><a>문제집 7</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>8</td>
+                            <td class="align-left"><a>문제집 8</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>9</td>
+                            <td class="align-left"><a>문제집 9</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td>10</td>
+                            <td class="align-left"><a>문제집 10</a></td>
+                            <td>yong0315</td>
+                            <td>1234</td>
+                            <td>
+                                <div>
+                                    <progress max="20" value="12"></progress>
+                                    <span>60% (12 / 20)</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="page-num">
+                <a>1</a>
+                <span>···</span>
+                <a class="active">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                <a>5</a>
+                <a>6</a>
+                <a>7</a>
+                <a>8</a>
+                <a>9</a>
+                <a>10</a>
+                <span>···</span>
+                <a>11</a>
+            </div>
+        </div>
+    </sector>
+</body>
+</html>

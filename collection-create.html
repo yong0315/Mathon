@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>문제집 만들기</title>
+    <link rel="stylesheet" href="style-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>
+                    <a href="main.html">
+                        <span style="color:#d0d0d0;">MATH</span>ON
+                    </a>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul class="list"> <!-- 메뉴 목록 -->
+                    <li><a href="problem-list.html">문제</a></li>
+                    <li><a href="problem-collection.html">문제집</a></li>
+                    <li><a href="community.html">게시판</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </nav>
+            <div class="sign"> <!-- 로그인/회원가입 -->
+                <ul class="list">
+                    <li><a href="sign-in.html">로그인</a></li>
+                    <li><a href="sign-up.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <sector class="center">
+        <div class="center-inner">
+            <div class="problem-nav">
+                <ul class="list">
+                    <li><a href="problem-collection.html">전체</a></li>
+                    <li><a href="#">내 문제집</a></li>
+                    <li><a href="collection-create.html" class="active">만들기</a></li>
+                </ul>
+            </div>
+            <div class="wrap">
+                <form class="collection-create" method="post">
+                    <div class="title">
+                        <div class="text">이름</div>
+                        <input type="type" class="input" placeholder="문제집 이름" name="name">
+                    </div>
+                    <div class="desc">
+                        <div class="text">설명</div>
+                        <input type="type" class="input" placeholder="문제집 설명" name="desc">
+                    </div>
+                    <div class="problem">
+                        <div class="text">문제 추가</div>
+                        <input type="type" class="input" placeholder="문제 번호 or 문제 이름을 입력해주세요." name="problem">
+                        <button type="button" class="plus">추가</button>
+                    </div>
+                    <table class="problem-list">
+                        <thead>
+                            <tr>
+                                <th style="width: 5%;">번호</th>
+                                <th class="align-left" style="width: 52%;">문제 이름</th>
+                                <th style="width: 8%;">상태</th>
+                                <th style="width: 8%;">과목</th>
+                                <th style="width: 5%;">제출</th>
+                                <th style="width: 5%;">정답</th>
+                                <th style="width: 6%;">정답률</th>
+                                <th style="width: 5%;">삭제</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="7">
+                                    <span style="font-size: 18px; font-weight: 600; color: #838383">추가된 문제 없음</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="uproad">문제집 만들기</button>
+                </form>
+            </div>
+        </div>
+    </sector>
+</body>
+</html>

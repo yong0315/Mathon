@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>문제 | 1번</title>
+    <link rel="stylesheet" href="style-prob.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script>
+        function func(obj) {
+            var tmp = document.getElementById("type-list");
+            if(obj.innerText == "숨기기") {
+                tmp.style.display = "none";
+                obj.innerText = "보기";
+                return;
+            }
+            else if(obj.innerText == "보기") {
+                tmp.style.display = "inline-block";
+                obj.innerText = "숨기기";
+                return;
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>
+                    <a href="main.html">
+                        <span style="color:#d0d0d0;">MATH</span>ON
+                    </a>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul class="list"> <!-- 메뉴 목록 -->
+                    <li><a href="problem-list.html">문제</a></li>
+                    <li><a href="problem-collection.html">문제집</a></li>
+                    <li><a href="community.html">게시판</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </nav>
+            <div class="sign"> <!-- 로그인/회원가입 -->
+                <ul class="list">
+                    <li><a href="sign-in.html">로그인</a></li>
+                    <li><a href="sign-up.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="center">
+        <div class="center-inner">
+            <article class="problem-title">
+                <h2>1번 : 2022학년도 수능 공통수학 22번</h2>
+                <span class="NON">미제출</span>
+            </article>
+            <section class="problem-center">
+                <div class="main">
+                    <article class="problem-desc">
+                        <div class="top">문제 설명</div>
+                        <div class="desc">
+                            <p>최고차항의 계수가 ½인 삼차함수 f(x)와 실수 t에 대하여  방정식 f'(x)가 
+                                닫힌구간 [t, t+2]에서 갖는 실근의 개수를 g(t)라 할 때, 
+                                함수 g(t)는 다음 조건을 만족시킨다.</p>
+                            <p>(가) 모든 실수에 a에 대하여 lim{t→a+} g(t) + lim{t→a-} g(t) = 2이다.</p>
+                            <p>(나) g(f(1)) = g(f(4)) = 2, g(f(0)) = 1</p>
+                            <p>f(5)의 값을 구하시오.  [4점]</p>
+                        </div>
+                    </article>
+                    <article class="answer-submit">
+                        <form class="form-submit" method="post">
+                            <input type="type" class="input" placeholder="답안을 입력하세요." name="answer" size="25">
+                            <button class="summit">제출</button>
+                        </form>
+                    </article>
+                    <article class="solution">
+                        <div class="top">풀이과정</div>
+                        <div class="desc">
+                            <p>문제를 풀은 다음 풀이과정을 열람할 수 있습니다.</p>
+                        </div>
+                    </article>
+                    <article class="question">
+                        <div class="top">질문</div>
+                        <div class="desc">
+                            <table class="problem-list">
+                                <thead>
+                                    <tr>
+                                        <th class="align-left" style="width: 70%;">게시글 제목</th>
+                                        <th style="width: 15%;">작성자</th>
+                                        <th style="width: 15%;">작성일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 1</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 2</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 3</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 4</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 5</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 6</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 7</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 8</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 9</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>질문 10</a></td>
+                                        <td>yong0315</td>
+                                        <td>2022-11-14</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="page-num">
+                                <a>1</a>
+                                <span>···</span>
+                                <a class="active">1</a>
+                                <a>2</a>
+                                <a>3</a>
+                                <a>4</a>
+                                <a>5</a>
+                                <a>6</a>
+                                <a>7</a>
+                                <a>8</a>
+                                <a>9</a>
+                                <a>10</a>
+                                <span>···</span>
+                                <a>11</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="included">
+                        <div class="top">관련 문제집</div>
+                        <div class="desc">
+                            <table class="problem-list">
+                                <thead>
+                                    <tr>
+                                        <th class="align-left" style="width: 75%;">문제집 제목</th>
+                                        <th style="width: 25%;">만든 사람</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 1</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 2</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 3</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 4</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 5</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 6</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 7</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 8</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 9</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                    <tr class="row">
+                                        <td class="align-left"><a>문제집 10</a></td>
+                                        <td>yong0315</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="page-num">
+                                <a>1</a>
+                                <span>《</span>
+                                <a class="active">1</a>
+                                <a>2</a>
+                                <a>3</a>
+                                <a>4</a>
+                                <a>5</a>
+                                <a>6</a>
+                                <a>7</a>
+                                <a>8</a>
+                                <a>9</a>
+                                <a>10</a>
+                                <span>》</span>
+                                <a>11</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <aside class="problem-info">
+                    <article class="info">
+                        <div class="top">문제 정보</div>
+                        <div class="desc">
+                            <dl>
+                                <dt>과목</dt>
+                                <dd>수학 II</dd>
+                            </dl>
+                            <dl>
+                                <dt>제출 수</dt>
+                                <dd>2784</dd>
+                            </dl>
+                            <dl>
+                                <dt>오답 (오답자)</dt>
+                                <dd>2494 (2485)</dd>
+                            </dl>
+                            <dl>
+                                <dt>정답 (정답자)</dt>
+                                <dd>290 (241)</dd>
+                            </dl>
+                            <dl>
+                                <dt>정답률</dt>
+                                <dd><b><span style="color: red;">9.698%</span>　매우 어려움</b></dd>
+                            </dl>
+                            <progress max="100" value="9.698"></progress>
+                        </div>
+                    </article>
+                    <article class="problem-type">
+                        <div class="top">
+                            <span>문제 유형</span>
+                            <button id="hidden" class="hide" onclick="func(this);">보기</button>
+                        </div>
+                        <div class="desc">
+                            <div id="type-list" class="list" style="display: none;">
+                                <ul>
+                                    <li><span style="font-size: 12px">▶</span>　다항함수의 미분</li>
+                                    <li><span style="font-size: 12px">▶</span>　도함수의 활용</li>
+                                    <li><span style="font-size: 12px">▶</span>　극한</li>
+                                    <li><span style="font-size: 12px">▶</span>　함수 추론</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="source">
+                        <div class="top">문제 출처</div>
+                        <div class="desc">
+                            <span>#평가원</span>
+                            <span>#2022학년도 수능</span>
+                            <span>#수능</span>
+                            <span>#대학수학능력시험</span>
+                            <span>#대수능</span>
+                        </div>
+                    </article>
+                </aside>
+            </section>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>

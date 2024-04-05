@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>문제 | 1페이지</title>
+    <link rel="stylesheet" href="style-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>
+                    <a href="main.html">
+                        <span style="color:#d0d0d0;">MATH</span>ON
+                    </a>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul class="list"> <!-- 메뉴 목록 -->
+                    <li><a href="problem-list.html">문제</a></li>
+                    <li><a href="problem-collection.html">문제집</a></li>
+                    <li><a href="community.html">게시판</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </nav>
+            <div class="sign"> <!-- 로그인/회원가입 -->
+                <ul class="list">
+                    <li><a href="sign-in.html">로그인</a></li>
+                    <li><a href="sign-up.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="center">
+        <div class="center-inner">
+            <div class="problem-nav">
+                <ul class="list">
+                    <li><a href="problem-list.html" class="active">전체</a></li>
+                    <li><a href="#">분류</a></li>
+                    <li><a href="#">내 문제</a></li>
+                    <li><a href="problem-create.html">올리기</a></li>
+                </ul>
+                <div class="form">
+                    <form class="form-sort" method="post">
+                        <select name="sort" id="sort">
+                            <option value="number">번호순</option>
+                            <option value="accept">푼 사람순</option>
+                            <option value="submiss">제출순</option>
+                            <option value="percent">정답률순</option>
+                        </select>
+                        <select name="sort-type" id="sort-type">
+                            <option value="ascend">오름차순</option>
+                            <option value="descend">내림차순</option>
+                        </select>
+                    </form>
+                    <form class="form-search" method="get">
+                        <select name="search-type" id="search-type">
+                            <option value="entire">전체</option>
+                            <option value="problem">문제</option>
+                            <option value="subject">과목</option>
+                        </select>
+                        <input type="type" class="input" placeholder="검색어를 입력하세요." name="search" size="25">
+                        <button class="summit">검색</button>
+                    </form>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="total">총 문제 一 1234개</div>
+                <table class="problem-list">
+                    <thead>
+                        <tr>
+                            <th style="width: 5%;">번호</th>
+                            <th class="align-left" style="width: 57%;">문제 이름</th>
+                            <th style="width: 8%;">상태</th>
+                            <th style="width: 8%;">과목</th>
+                            <th style="width: 5%;">제출</th>
+                            <th style="width: 6%;">정답자</th>
+                            <th style="width: 6%;">정답률</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td>1</td>
+                            <td class="align-left"><a href="problem-main.html">2022학년도 수능 공통수학 22번</a></td>
+                            <td class="status"><span class="NON">미제출</span></td>
+                            <td>수학 II</td>
+                            <td>2784</td>
+                            <td>241</td>
+                            <td>9.698%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>2</td>
+                            <td class="align-left"><a>문제 2</a></td>
+                            <td class="status"><span class="AC">맞음</span></td>
+                            <td>수학(하)</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>3</td>
+                            <td class="align-left"><a>문제 3</a></td>
+                            <td class="status"><span class="WA">틀림</span></td>
+                            <td>수학 I</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>4</td>
+                            <td class="align-left"><a>문제 4</a></td>
+                            <td class="status"><span class="WA">틀림</span></td>
+                            <td>수학 II</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>5</td>
+                            <td class="align-left"><a>문제 5</a></td>
+                            <td class="status"><span class="AC">맞음</span></td>
+                            <td>미적분</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>6</td>
+                            <td class="align-left"><a>문제 6</a></td>
+                            <td class="status"><span class="NON">미제출</span></td>
+                            <td>확률과 통계</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>7</td>
+                            <td class="align-left"><a>문제 7</a></td>
+                            <td class="status"><span class="AC">맞음</span></td>
+                            <td>중1</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>8</td>
+                            <td class="align-left"><a>문제 8</a></td>
+                            <td class="status"><span class="AC">맞음</span></td>
+                            <td>중2</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>9</td>
+                            <td class="align-left"><a>문제 9</a></td>
+                            <td class="status"><span class="WA">틀림</span></td>
+                            <td>중3</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr class="row">
+                            <td>10</td>
+                            <td class="align-left"><a>문제 10</a></td>
+                            <td class="status"><span class="WA">틀림</span></td>
+                            <td>초4~6</td>
+                            <td>123</td>
+                            <td>123</td>
+                            <td>100%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="page-num">
+                <a>1</a>
+                <span>···</span>
+                <a class="active">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                <a>5</a>
+                <a>6</a>
+                <a>7</a>
+                <a>8</a>
+                <a>9</a>
+                <a>10</a>
+                <span>···</span>
+                <a>11</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>

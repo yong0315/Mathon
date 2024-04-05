@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>문제 | 1페이지</title>
+    <link rel="stylesheet" href="style-list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <h1>
+                    <a href="main.html">
+                        <span style="color:#d0d0d0;">MATH</span>ON
+                    </a>
+                </h1>
+            </div>
+            <nav class="menu">
+                <ul class="list"> <!-- 메뉴 목록 -->
+                    <li><a href="problem-list.html">문제</a></li>
+                    <li><a href="problem-collection.html">문제집</a></li>
+                    <li><a href="community.html">게시판</a></li>
+                    <li><a href="#">도움말</a></li>
+                </ul>
+            </nav>
+            <div class="sign"> <!-- 로그인/회원가입 -->
+                <ul class="list">
+                    <li><a href="sign-in.html">로그인</a></li>
+                    <li><a href="sign-up.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="center">
+        <div class="center-inner">
+            <div class="problem-nav">
+                <ul class="list">
+                    <li><a href="community.html" class="active">공지</a></li>
+                    <li><a href="#">자유</a></li>
+                    <li><a href="#">질문</a></li>
+                    <li><a href="#">제보</a></li>
+                    <li><a href="post-uproad.html">작성</a></li>
+                </ul>
+                <div class="form">
+                    <form class="form-sort" method="post">
+                        <select name="sort" id="sort">
+                            <option value="number">번호순</option>
+                            <option value="inquiry">조회수순</option>
+                            <option value="like">추천순</option>
+                            <option value="reply">댓글순</option>
+                        </select>
+                        <select name="sort-type" id="sort-type">
+                            <option value="ascend">오름차순</option>
+                            <option value="descend">내림차순</option>
+                        </select>
+                    </form>
+                    <form class="form-search" method="get">
+                        <select name="search-type" id="search-type">
+                            <option value="entire">전체</option>
+                            <option value="post">게시글</option>
+                            <option value="identity">아이디</option>
+                        </select>
+                        <input type="type" class="input" placeholder="검색어를 입력하세요." name="search" size="25">
+                        <input type="submit" class="summit" value="검색">
+                    </form>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="total">총 게시글 一 1234개</div>
+                <table class="problem-list">
+                    <thead>
+                        <tr>
+                            <th style="width: 5%;">번호</th>
+                            <th class="align-left" style="width: 57%;">게시글 제목</th>
+                            <th style="width: 10%;">작성자</th>
+                            <th style="width: 10%;">작성일</th>
+                            <th style="width: 6%;">조회수</th>
+                            <th style="width: 5%;">추천</th>
+                            <th style="width: 5%;">댓글</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row">
+                            <td>1</td>
+                            <td class="align-left"><a href="post.html">이 게시글은 샘플용 게시글입니다.</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        <tr class="row">
+                            <td>2</td>
+                            <td class="align-left"><a>게시글 2</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>3</td>
+                            <td class="align-left"><a>게시글 3</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>4</td>
+                            <td class="align-left"><a>게시글 4</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>5</td>
+                            <td class="align-left"><a>게시글 5</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>6</td>
+                            <td class="align-left"><a>게시글 6</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>7</td>
+                            <td class="align-left"><a>게시글 7</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>8</td>
+                            <td class="align-left"><a>게시글 8</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>9</td>
+                            <td class="align-left"><a>게시글 9</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="row">
+                            <td>10</td>
+                            <td class="align-left"><a>게시글 10</a></td>
+                            <td>yong0315</td>
+                            <td>2022-11-14</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="page-num">
+                <a>1</a>
+                <span>···</span>
+                <a class="active">1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>4</a>
+                <a>5</a>
+                <a>6</a>
+                <a>7</a>
+                <a>8</a>
+                <a>9</a>
+                <a>10</a>
+                <span>···</span>
+                <a>11</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+</html>

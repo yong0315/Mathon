@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: #2d2d2d;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+header a {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select, input, button {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-inner {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    vertical-align: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logo {
+    float: left;
+    padding: 0px 30px 0px 30px;
+    height: 60px;
+}
+
+.menu li {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    height: 60px;
+}
+
+.sign {
+    position: absolute;
+    right: 0;
+}
+
+.sign li {
+    float: left;
+    margin: 0px 20px 0px 20px;
+    height: 60px;
+}
+
+.center-inner {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.page-num {
+    text-align: center;
+    margin: 30px 0px 25px 0px;
+}
+
+.page-num a {
+    display: inline-block;
+    padding : 18px 12px;
+    min-width: 40px;
+    font-weight: 600;
+}
+
+.page-num span {
+    font-weight: 600;
+    padding: 0px 15px;
+}
+
+.problem-nav {
+    position: relative;
+    height: 55px;
+    margin: 30px 0px 15px 0px;
+    font-weight: 500;
+}
+
+.problem-nav .list li a {
+    float: left;
+    padding: 15px 20px;
+    border-radius: 10px;
+    top: 50%;
+}
+
+.problem-nav .form {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.form form {
+    float: left;
+    margin-left: 50px;
+}
+
+.form-sort select, .form-search select {
+    height: 40px;
+    border: 2px solid #2d2d2d;
+    border-radius: 7px;
+    padding: 0px 15px;
+    margin: auto 7px;
+    font-size: 14px;
+}
+
+.form-search .input {
+    height: 36px;
+    border: 2px solid #2d2d2d;
+    border-radius: 7px;
+    padding: 0px 15px;
+    margin: auto 7px;
+    font-size: 14px;
+}
+
+.form-search .summit {
+    height: 40px;
+    border: 2px solid #2d2d2d;
+    border-radius: 7px;
+    padding: 0px 15px;
+    margin: auto 7px;
+    font-size: 14px;
+}
+
+.problem-nav .list li a:hover:not(.active), .page-num a:hover:not(.active) {
+    background-color: #dddddd;
+}
+
+.active {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.center-inner .wrap {
+    width: 100%;
+    border-top: 3px solid #2d2d2d;
+}
+
+.total {
+    font-weight: 600;
+    padding: 5px;
+}
+
+.title {
+    padding: 10px 10px 0px 10px;
+}
+
+.desc {
+    padding: 10px 10px 15px 10px;
+}
+
+.collection-create .title {
+    display: flex;
+    padding: 15px 15px 20px 15px;
+}
+
+.collection-create .desc  {
+    display: flex;
+    padding: 20px 15px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.collection-create .problem {
+    display: flex;
+    padding: 20px 15px;
+}
+
+.collection-create .text {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 0px 5px 0px;
+}
+
+.collection-create input {
+    width: 60%;
+    max-width: 700px;
+    margin-left: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #d6d6d6;
+    border-radius: 25px;
+}
+
+.collection-create .plus {
+    padding: 2px 30px;
+    background-color: #eeeeee;
+    border-style: none;
+    border-radius: 25px;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.collection-create .uproad {
+    padding: 10px 40px;
+    background-color: #eeeeee;
+    border-style: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+table {
+    width: 100%;
+    max-width: 1300px;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+th {
+    padding: 8px 15px;
+}
+
+td {
+    padding: 12px 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.status span {
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.AC { background: rgb(0, 170, 0) !important; }
+.WA { background: red !important; }
+.NON { background: rgb(175, 175, 175) !important; }
+
+.row:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+progress {
+    appearance: none;
+    width: 100%;
+    height: 20px;
+}
+
+progress::-webkit-progress-bar {
+    background: #dddddd;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background: #428bca;
+    border-radius:  5px;
+}

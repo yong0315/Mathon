@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: #2d2d2d;
+    align-items: center;
+}
+
+nav {
+    display: block;
+}
+
+header a {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-inner {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    vertical-align: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logo {
+    float: left;
+    padding: 0px 30px 0px 30px;
+    height: 60px;
+}
+
+.menu li {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    height: 60px;
+}
+
+.sign {
+    position: absolute;
+    right: 0;
+}
+
+.sign li {
+    float: left;
+    margin: 0px 20px 0px 20px;
+    height: 60px;
+}
+
+.center-inner {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sign-up {
+    width: 400px;
+    border: 2px solid #c5c5c5;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 80px auto;
+    padding: 25px;
+}
+
+.sign-up .top {
+    padding: 10px;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+.account {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    border: 2px solid #c5c5c5;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.form-join span {
+    display: block;
+    margin: 15px 0px 5px 0px;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.form-join b {
+    color: red;
+}
+
+#join {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #43abe7;
+    border: 2px solid #43abe7;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+}
